@@ -1,0 +1,40 @@
+.cantainer{
+    height: 400px;
+    width: 400px;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+@media screen and (max-width:600px) {
+    .cantainer{
+        height: 300px;
+        width: 300px;
+        font-size: 20px;
+        background-color: pink;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .cantainer{
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+        background-color: rgb(243, 10, 236);
+    }
+
+}
+
+
+/* @media screen and (min-width:800px) {
+    .cantainer{
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+        background-color: rgb(243, 10, 236);
+    }
+
+}
+ 
+  */
+

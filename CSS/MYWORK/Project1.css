@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(255, 153, 0);
+ 
+
+}
+h1{
+    background-color: rgb(250, 215, 243);
+    color: rgb(61, 42, 165);
+    height: 60px;
+    width: 300px;
+    padding: 50px 10px;
+    padding-left: 50px;
+    margin: 10px;
+    font-style: oblique;
+    border: 5px dotted rgb(206, 6, 6);
+    border-radius: 50%;
+  
+ 
+}
+
+h2{
+    background-color: rgb(123, 255, 0);
+    height: 40px;
+    width: 205px;
+    font-style: italic; 
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 4px dashed rgb(9, 0, 128);
+    overflow: hidden;
+    overflow: scroll;
+    
+
+
+}
+
+p{
+    color: rgb(226, 43, 86);
+    height: 60px;
+    width: 60%;
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid black;
+    overflow: hidden;
+    overflow: scroll;
+}

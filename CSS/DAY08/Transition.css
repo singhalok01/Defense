@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cantainer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    perspective: 800px;
+}
+
+.alok{
+    border-radius: 50;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    
+    /* transform: translate(100px,300px);
+    transform: translateY(-300px); */
+    /* transform:  rotate(45deg); */
+    /* transform: skew(30deg); */
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* transition: all 3s ease-in 2s; */
+    /* transition: all 3s; */
+    color: rgb(67, 165, 42);
+    font-size: 50px;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+   
+}
+
+@keyframes moving {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+/* .alok:hover{
+    background-color: purple;
+    width: 300px;
+    height: 500px; 
+    transform: scale(2); 
+    transform: translateZ(200px);
+    transform: rotatey(90deg);
+    
+} */

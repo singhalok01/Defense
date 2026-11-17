@@ -1,0 +1,50 @@
+/* span{
+    background-color: rgb(34, 34, 238);
+} */
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h1{
+    background-color: aqua;
+    /* padding: 20px;
+    margin: 20px; */
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: content-box;
+    /* display: inline; */
+    /* display: inline-block; */
+
+}
+
+h2{
+    background-color: rgb(103, 10, 10);
+    /* display: inline; */
+    /* display: inline-block; */
+
+    height: 300px;
+    width: 300px;
+    border: 10px solid orange;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+span{
+    background-color: pink;
+    /* padding: 20px;
+    margin: 20px; */
+    height: 200px;
+    width: 300px;
+    margin-bottom: 150px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    /* display: block; */
+
+}
