@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <style>
+        label{
+            background-color: aqua;
+            
+        }
+        input{
+            background-color: aquamarine;
+        }
+        #alok{
+            background-color: blue;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h1>University Registration Forms</h1>
+    <p>please fill out the form</p>
+    <hr>
+
+    <form>
+
+        <h2>Personal Details</h2>
+
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g Alok">
+        <br><br>
+
+        <label for="surname">Last Name:</label>
+        <input type="text" name="surname" id="surname" placeholder="e.g: Kushwaha">
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob">
+
+        <h3>Gender</h3>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+        <h3>Upload Your Photo</h3>
+
+        <input type="file" name="file">
+
+        <hr>
+
+        <h3>contact Information</h3>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="e.g: eralokkushwah@gmail.com">
+        <br><br>
+
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" id="phone" placeholder="e.g: 9153839210">
+        <br><br>
+
+        <label for="address">Mailing Address</lable>
+            <br>
+            <textarea name="address" id="address" rows="2" cols="5"></textarea>
+            <hr>
+
+            <h2>Academic Information</h2>
+
+            <label for="course">Select Your Course</label>
+            <select name="course" id="course">
+                <option value="CSE">CSE</option>
+                <option value="Me">ME</option>
+                <option value="CE">CE</option>
+            </select>
+            <br><br>
+            <input type="submit">
+
+
+    </form>
+
+
+</body>
+
+</html>

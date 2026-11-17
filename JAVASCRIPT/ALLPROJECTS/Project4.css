@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:
+        radial-gradient(circle at top, #202040, #080812 55%, #000000);
+
+    color: white;
+}
+
+/* Main Clock Box */
+
+.clock-container {
+    width: 90%;
+    max-width: 650px;
+
+    padding: 45px 30px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(15px);
+
+    box-shadow:
+        0 0 30px rgba(0, 0, 0, 0.5),
+        inset 0 0 20px rgba(255, 255, 255, 0.03);
+
+    transition: 0.4s ease;
+}
+
+.clock-container:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 50px rgba(0, 255, 255, 0.15),
+        inset 0 0 25px rgba(255, 255, 255, 0.05);
+}
+
+/* Heading */
+
+.clock-title {
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    letter-spacing: 6px;
+
+    color: #aaa;
+}
+
+/* Time */
+
+#time {
+    font-size: clamp(50px, 10vw, 90px);
+
+    font-weight: bold;
+
+    letter-spacing: 5px;
+
+    color: #ffffff;
+
+    text-shadow:
+        0 0 10px #00ffff,
+        0 0 25px rgba(0, 255, 255, 0.5);
+
+    font-variant-numeric: tabular-nums;
+}
+
+/* Date */
+
+#date {
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    color: #dddddd;
+
+    letter-spacing: 2px;
+}
+
+/* Day */
+
+#day {
+    margin-top: 8px;
+
+    font-size: 16px;
+
+    color: #888;
+
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+}
+
+/* Live Status */
+
+.status {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 25px;
+
+    font-size: 12px;
+
+    letter-spacing: 3px;
+
+    color: #00ffcc;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+
+    background: #00ffcc;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 10px #00ffcc;
+
+    animation: blink 1s infinite;
+}
+
+/* Animation */
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(0.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .clock-container {
+        padding: 35px 15px;
+    }
+
+    .clock-title {
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+
+    #time {
+        letter-spacing: 2px;
+    }
+
+    #date {
+        font-size: 16px;
+    }
+}

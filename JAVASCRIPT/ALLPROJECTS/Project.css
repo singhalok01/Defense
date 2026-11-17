@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f5f5f5;
+    transition:background-color 0.4s ease;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:25px;
+    color:#333;
+}
+
+.containerr{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap:15px;
+    width:750px;
+}
+
+.color{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 4px 8px rgba(0,0,0,.2);
+}
+
+.color:hover{
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 8px 15px rgba(0,0,0,.3);
+}
+
+.color:active{
+    transform:scale(0.95);
+}
+
+/* Button Colors */
+
+.red{background:red;}
+.orange{background:orange;}
+.green{background:green;}
+.pink{background:pink;color:black;}
+.yellow{background:yellow;color:black;}
+.gold{background:gold;color:black;}
+.magenta{background:magenta;}
+.purple{background:purple;}
+.skyblue{background:skyblue;color:black;}
+.brown{background:brown;}
+.chocolate{background:chocolate;}
+

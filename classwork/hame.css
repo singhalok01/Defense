@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#cantainer{
+    height: 100vh;
+   position: relative;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    box-shadow: 0px 0px 30px 10px cyan;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+   
+    animation-iteration-count: infinite;
+    animation-name: alok;
+}
+#samir{
+   height: 50px;
+   width: 50px;
+   top: 100px;
+   bottom: 0px;
+   left: 0px;
+   right: 100px;
+   background-color: chartreuse;
+   box-shadow: 0px 0px 20px 10px chocolate;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+   
+    animation-iteration-count: infinite;
+    animation-name: alok;
+}
+  .alok{height: 200px;
+    width: 200px;
+    background-color: rgb(247, 5, 5);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-name: ansh,alok;
+   
+   animation-duration: 5s;
+   position: absolute;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   /* animation-direction: alternate; */
+   animation-delay: 2s;
+   /* animation-fill-mode: backwards; */
+   border-radius: 50%;
+   box-shadow: 0px 0px 50px 30px red;
+  }
+
+
+@keyframes alok {
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes ansh {
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+    25%{
+        background-color: blueviolet;
+        top: 10px;
+        left: 1000px;
+
+    }
+     50%{
+        background-color: rgb(46, 226, 43);
+        top: 500px;
+        left: 1000px;
+
+    }
+     75%{
+        background-color: rgb(227, 216, 6);
+        top: 500px;
+        left: 10px;
+
+    }
+     100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+}   
+     .ayansh{height: 200px;
+    width: 200px;
+    background-color: rgb(74, 255, 8);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-name: ansh,ayansh;
+   
+   animation-duration: 5s;
+   position: absolute;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   /* animation-direction: alternate; */
+   animation-delay: 5s;
+   /* animation-fill-mode: backwards; */
+   border-radius: 50%;
+   box-shadow: 0px 0px 50px 30px rgb(47, 0, 255);
+}    
+
+
+@keyframes ayansh {
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+    25%{
+        background-color: blueviolet;
+        top: 10px;
+        left: 1000px;
+
+    }
+     50%{
+        background-color: rgb(46, 226, 43);
+        top: 500px;
+        left: 1000px;
+
+    }
+     75%{
+        background-color: rgb(227, 216, 6);
+        top: 500px;
+        left: 10px;
+
+    }
+     100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+}   

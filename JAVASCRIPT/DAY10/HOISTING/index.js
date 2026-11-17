@@ -1,0 +1,59 @@
+// Execution Context 
+// Memory allocation 
+// a = 10
+// b = 20
+// addNumber = fnCode
+// sumResult1 = undefined
+// sumResult2 = undefined
+
+const { jsx } = require("react/jsx-runtime")
+
+// Execution phase
+
+
+// console.log(a);
+// var a = 10;
+// var b = 20;
+// console.log(a);
+
+// var sumResult1 = addnumber(a,b);
+// console.log(sumResult1);
+
+// function addNumber(num2,num2){
+//     var sum = num1+num2;
+//     return sum;
+// }
+// var sumResult1 = addNumber(a,b);
+// var sumResult2 = addNumber(4,5);
+// console.log(sumResult1,sumResult2);
+
+
+
+
+// let const 
+// memory allocation 
+// a = <uninitialised>(Temporal dead zone)
+// b = <uninitialised>(Temporal dead zone)
+// result = <uninitialised>(Temporal dead zone)
+// addNumber = <uninitialised>(Temporal dead zone)
+
+// Execution phase
+
+
+
+
+// let a = 10;
+// const b = 20;
+
+
+
+// const result = addNumber(a,b);
+// console.log(result);
+
+
+
+// const addNumber = function(num1,num2){
+//     const sum = num1+num2;
+//     return sum;
+// }
+
